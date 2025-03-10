@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #1c1c1c, #3a3a3a);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Headings */
+h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Form Inputs */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit Button */
+button {
+    background: #ff9800;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+button:hover {
+    background: #ff6f00;
+    transform: scale(1.05);
+}
+
+/* Prediction Result */
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
