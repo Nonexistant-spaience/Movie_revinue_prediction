@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Revenue Prediction</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 Movie Box Office Prediction</h1>
+        <p>Enter movie details to predict box office revenue.</p>
+        
+        <form id="predictionForm">
+            <label for="budget">💰 Budget ($):</label>
+            <input type="number" id="budget" placeholder="Enter budget" required>
+
+            <label for="runtime">⏳ Runtime (minutes):</label>
+            <input type="number" id="runtime" placeholder="Enter runtime" required>
+
+            <label for="marketingBudget">📢 Promotion Budget ($):</label>
+            <input type="number" id="marketingBudget" placeholder="Enter marketing budget" required>
+
+            <button type="submit">🔮 Predict Revenue</button>
+        </form>
+
+        <div id="result">
+            <h2>Prediction: <span id="predictionResult">$0.00</span></h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
